@@ -1,0 +1,113 @@
+html{
+    height:100%;
+  } 
+body{
+    min-height:100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  /*  justify-content: center;
+    align-items: center;
+    min-height: 100%;*/
+    background-color: gray;
+}
+html, body {          /*les paragraphes principaux*/
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}.fond {             /*fond*/
+    position: unset; 
+    width: 1200px;
+    height: 2000px;
+    background: rgb(178, 179, 178);
+    margin: auto;
+}
+.img01 {            /*les 6 images*/
+    width: 225;
+    height: 300px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    position: absolute;
+    border: 10px solid #FFD700;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+}
+header{             /*header menu déroulant*/
+    height: 70px;
+    background-color: gray;
+  }
+  .header {
+    width: 1000px;
+    margin: auto;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-weight: 800;
+  }
+  .menu {
+    padding: 0;
+    margin: 0;
+  }
+  .menu .title {
+    display: inline-block;
+    position: relative;
+    padding: 23px 10px;
+    transition: 0.5s;
+  }
+  .menu .title a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .menu .title:hover {
+    background-color: #FFD700;
+  }
+  main {             
+    padding: 1rem 4rem;
+    margin-left: 5rem;
+    text-align: justify;
+    
+}
+.vertical-line{
+    position: unset;
+    border-left: 2px solid #FFD700;
+    display: inline-block;
+    height: 1500px;
+    margin-left: -6rem;
+    margin-top: -1rem;
+  }
+.desc {
+    margin-left: 20rem;
+    margin-top: 11rem;
+}
+.texte {
+    margin-top: 10rem;
+
+}
+.cont {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 5rem;
+    line-height: 40px;
+    font-weight: 400;
+}
+.footer {           /*footer pied de page*/
+    height: 300px;
+    margin-top: 100px;
+    background-color: gray;
+    margin: auto;
+}
